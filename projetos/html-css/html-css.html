@@ -1,247 +1,295 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Biografia de Albert Einstein</title>
+        <style>
+            body {
+                margin: 0;
+                background-color: #D9DACF;
+            }
+            h1 {
+                text-align: center;
+                font-size: 50px;
+            }
+            .corpo-do-texto {
+                padding: 50px;
+                text-align: justify;
+                max-width: 59%;
+                position: absolute;
+                top: 50px;
+            }
+            #foto {
+                width: 400px;
+            }
+            aside {
+                border: black 5px solid;
+                text-align: center;
+                width: 400px;
+                margin: 50px;
+                position: absolute;
+                top: 50px;
+                right: 0;
+            }
+            .barra-fixa {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                font-size: 20px;
+                background-color: #89D3AB;
+                z-index: 100
+            }
+            .menu {
+                text-align: center;
+            }
+            .menu li {
+                padding: 8px 100px 8px 100px;
+                display: inline;
+                border: 5px yellow solid;
+            }
+            .rodapé {
+                text-align: center;
+                width: 100%;
+                font-size: 20px;
+                color: white;
+                background-color: black;
+                position: fixed;
+                bottom: -20px;
+                z-index: 50;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="barra-fixa">
+                <ul class="menu">
+                    <a href="#início-de-vida"><li>Início de vida</li></a>
+                    <a href="#carreira-acadêmica"><li>Carreira acadêmica</li></a>
+                    <a href="#contribuições-científicas"><li>Contribuições científicas</li></a>
+                </ul>
+            </nav>
+        </header>
+        <article class="corpo-do-texto">
+            <h1>Biografia de Albert Einstein</h1>
+            
+            <section>
+                <h2>Introdução</h2>
 
-<head>
-    <meta charset="utf-8">
-    <title>Biografia de Albert Einstein</title>
-    <style>
-        body {
-            margin: 0;
-            background-color: #D9DACF;
-        }
-        h1 {
-            text-align: center;
-            font-size: 50px;
-        }
-        .corpo-do-texto {
-            padding: 0 50px 0 50px;
-            position: absolute;
-            top: 50px;
-        }
-        .foto {
-            border: black 5px solid;
-            width: 400px;
-            float: right;
-            margin: 6px;
-        }
-        .barra-fixa {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            font-size: 20px;
-            background-color: #89D3AB;
-            z-index: 100
-        }
-        ul.menu {
-            text-align: center;
-        }
-        ul.menu li {
-            padding: 8px 100px 8px 100px;
-            display: inline;
-            width: 100%;
-            border: 5px yellow solid;
-        }
-        .rodapé {
-            text-align: center;
-            width: 100%;
-            font-size: 20px;
-            color: white;
-            background-color: black;
-            position: fixed;
-            bottom: -20px;
-            z-index: 50;
-        }
-    </style>
-</head>
+                <p>Albert Einstein (Ulm, 14 de março de 1879 — Princeton, 18 de abril de 1955) foi um físico teórico alemão que
+                    desenvolveu a teoria da relatividade geral, um dos pilares da física moderna ao lado da mecânica quântica.
+                    Embora mais conhecido por sua fórmula de equivalência massa-energia, E=mc² — que foi chamada de "a equação mais
+                    famosa do mundo" —, foi laureado com o Prêmio Nobel de Física de 1921 "por suas contribuições à física teórica"
+                    e, especialmente, por sua descoberta da lei do efeito fotoelétrico, que foi fundamental no estabelecimento da
+                    teoria quântica.<br><br>
+                    Nascido em uma família de judeus alemães, mudou-se para a Suíça ainda jovem e iniciou seus estudos na Escola
+                    Politécnica de Zurique. Após dois anos procurando emprego, obteve um cargo no escritório de patentes suíço
+                    enquanto ingressava no curso de doutorado da Universidade de Zurique. Em 1905 publicou uma série de artigos
+                    acadêmicos revolucionários. Uma de suas obras era o desenvolvimento da teoria da relatividade especial.
+                    Percebeu, no entanto, que o princípio da relatividade também poderia ser estendido para campos gravitacionais, e
+                    com a sua posterior teoria da gravitação, de 1916, publicou um artigo sobre a teoria da relatividade geral.
+                    Enquanto acumulava cargos em universidades e instituições, continuou a lidar com problemas da mecânica
+                    estatística e teoria quântica, o que levou às suas explicações sobre a teoria das partículas e o movimento
+                    browniano. Também investigou as propriedades térmicas da luz, o que lançou as bases da teoria dos fótons. Em
+                    1917, aplicou a teoria da relatividade geral para modelar a estrutura do universo como um todo. Suas obras
+                    renderam-lhe o status de celebridade mundial enquanto tornava-se uma nova figura na história da humanidade,
+                    recebendo prêmios internacionais e sendo convidado de chefes de estado e autoridades.<br><br></p>
+            </section>    
+            <section>
+                <h2>Índice</h2>
 
-<body>
-    <div class="barra-fixa">
-        <ul class="menu">
-            <a href="#início-de-vida"><li>Início de vida</li></a>
-            <a href="#carreira-acadêmica"><li>Carreira acadêmica</li></a>
-            <a href="#contribuições-científicas"><li>Contribuições científicas</li></a>
-        </ul>
-    </div>
-    <div class="corpo-do-texto">
-        <h1>Albert Einstein</h1>
-        <p>Albert Einstein (Ulm, 14 de março de 1879 — Princeton, 18 de abril de 1955) foi um físico teórico alemão que
-            desenvolveu a teoria da relatividade geral, um dos pilares da física moderna ao lado da mecânica quântica.
-            Embora mais conhecido por sua fórmula de equivalência massa-energia, E=mc² — que foi chamada de "a equação mais
-            famosa do mundo" —, foi laureado com o Prêmio Nobel de Física de 1921 "por suas contribuições à física teórica"
-            e, especialmente, por sua descoberta da lei do efeito fotoelétrico, que foi fundamental no estabelecimento da
-            teoria quântica.<br><br>
-            Nascido em uma família de judeus alemães, mudou-se para a Suíça ainda jovem e iniciou seus estudos na Escola
-            Politécnica de Zurique. Após dois anos procurando emprego, obteve um cargo no escritório de patentes suíço
-            enquanto ingressava no curso de doutorado da Universidade de Zurique. Em 1905 publicou uma série de artigos
-            acadêmicos revolucionários. Uma de suas obras era o desenvolvimento da teoria da relatividade especial.
-            Percebeu, no entanto, que o princípio da relatividade também poderia ser estendido para campos gravitacionais, e
-            com a sua posterior teoria da gravitação, de 1916, publicou um artigo sobre a teoria da relatividade geral.
-            Enquanto acumulava cargos em universidades e instituições, continuou a lidar com problemas da mecânica
-            estatística e teoria quântica, o que levou às suas explicações sobre a teoria das partículas e o movimento
-            browniano. Também investigou as propriedades térmicas da luz, o que lançou as bases da teoria dos fótons. Em
-            1917, aplicou a teoria da relatividade geral para modelar a estrutura do universo como um todo. Suas obras
-            renderam-lhe o status de celebridade mundial enquanto tornava-se uma nova figura na história da humanidade,
-            recebendo prêmios internacionais e sendo convidado de chefes de estado e autoridades.<br><br></p>
+                <ol>
+                    <a href="#início-de-vida"><li>Início de vida</li></a>
+                    <a href="#carreira-acadêmica"><li>Carreira acadêmica</li></a>
+                    <a href="#contribuições-científicas"><li>Contribuições científicas<br><br><br></li></a>
+                </ol>
+            </section>
+            <section>
+                <h2 id="início-de-vida">Início de vida<br><br></h2>
 
-        
-            <img class="foto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/800px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+                <p>Albert Einstein nasceu em Ulm, no Reino de Württemberg, Império Alemão (atual Baden-Württemberg, Alemanha), em 14
+                    de março de 1879. Seus pais eram Hermann Einstein, um vendedor e engenheiro, e Pauline Einstein (nascida Koch).
+                    Os Einstein eram judeus asquenazes não praticantes. Em 1880 a família mudou-se para Munique, onde seu pai e tio
+                    fundaram a Elektrotechnische Fabrik J. Einstein & Cie, empresa que fabricava equipamentos elétricos acionados
+                    por corrente contínua. Um ano mais tarde seus pais deram à luz a uma menina, Maria "Maja" Einstein, sua irmã
+                    mais nova. Com cinco anos de idade o jovem Albert estudou em uma escola primária católica durante três anos. Aos
+                    oito foi transferido para o Ginásio Luitpold, hoje conhecido como Ginásio Albert Einstein, onde recebeu educação
+                    escolar primária e secundária, até deixar a Alemanha sete anos depois. Seu tio Jacob, um engenheiro, e Max
+                    Talmey, um jovem estudante pobre de medicina que jantava na casa da família uma vez por semana entre 1889 e
+                    1894, foram grandes influências durante seus anos de formação. Eles incentivaram sua curiosidade inerente e
+                    insaciável sobre tudo. Talmey trouxe livros populares de ciência, incluindo Crítica da Razão Pura de Immanuel
+                    Kant, que Einstein começou a ler.<br><br>
+
+                    Em 1894, a empresa de seu pai faliu: a corrente contínua perdeu a Guerra das Correntes para a corrente
+                    alternada. Em busca de negócios, a família de Einstein mudou-se para a Itália, primeiro para Milão e, alguns
+                    meses mais tarde, para Pavia. Quando a família se mudou para a cidade italiana, Einstein ficou em Munique para
+                    terminar seus estudos no Ginásio Luitpold. Seu pai queria que seguisse a engenharia elétrica, mas o jovem entrou
+                    em choque com as autoridades e ressentiu-se com o regime da escola e o método de ensino. Escreveu mais tarde que
+                    o espírito do conhecimento e o pensamento criativo foram perdidos na esteira da aprendizagem mecânica. No final
+                    de dezembro de 1894, viajou para a Itália para se juntar à sua família em Pavia, convencendo a escola a deixá-lo
+                    ir usando um atestado médico. Foi durante seu tempo na Itália que escreveu um pequeno ensaio com o título "Sobre
+                    a Investigação do Estado do Éter num Campo Magnético".<br><br>
+
+                    No final do verão de 1895, com dezesseis anos, dois antes da idade padrão, realizou os exames de admissão para a
+                    Escola Politécnica Federal Suíça (hoje a ETH-Zurique). Ele não conseguiu alcançar o padrão exigido em várias
+                    disciplinas, mas obteve notas excepcionais em física e matemática. Seguindo o conselho do diretor da
+                    Politécnica, frequentou a Escola Cantonal em Aarau, Suíça, entre 1895 e 1896 para completar o ensino secundário.
+                    Enquanto se hospedava com a família do professor Jost Winteler, apaixonou-se por sua filha, Marie Winteler (mais
+                    tarde sua irmã Maja casou-se com o filho dos Wintelers, Paul). Em 28 de janeiro de 1896, com a aprovação de seu
+                    pai, renunciou à sua cidadania no Reino de Württemberg, para evitar o serviço militar. Em 29 de outubro foi
+                    aprovado no exame Matura com boas notas. Embora tivesse apenas 17 anos, um a menos que os demais alunos,
+                    matriculou-se no curso de quatro anos para obter o diploma de professor de física da Escola Politécnica. Durante
+                    os anos de graduação, viveu com uma mesada de 1 franco suíço por mês, da qual guardou uma pequena quantia para
+                    pagar por seus papéis de naturalização. Marie Winteler mudou-se para Olsberg, Suíça, onde obteve um cargo como
+                    professora.<br><br>
+
+                    A futura esposa de Einstein, Mileva Marić, também se matriculou na Escola Politécnica no mesmo ano, e era a
+                    única mulher entre os seis estudantes de matemática e física nas aulas do curso. Com o passar dos anos, sua
+                    amizade com Marić se desenvolveu em romance, e juntos liam livros extra-curriculares de física onde Einstein
+                    estava mostrando um interesse crescente. Em 1900, Einstein foi agraciado com o diploma de ensino da Politécnica
+                    de Zurique, mas Marić foi reprovada no exame com uma nota baixa em um componente da matemática, a teoria das
+                    funções. Houve alegações de que Marić colaborou com Einstein em seus célebres trabalhos de 1905, mas os
+                    historiadores da física que estudaram a questão não encontraram nenhuma evidência de que ela tenha feito
+                    quaisquer contribuições substanciais.<br><br><br></p>
+            </section>
+            <section>
+                <h2 id="carreira-acadêmica">Carreira acadêmica<br><br></h2>
+                
+                <p>Em fevereiro de 1901, Einstein adquiriu a nacionalidade suíça. Poucos meses depois, no início do mesmo ano, seu
+                    artigo "Conclusões Retiradas dos Fenômenos da Capilaridade" ("Folgerungen aus den Capillaritätserscheinungen")
+                    foi publicado no prestigiado periódico acadêmico Annalen der Physik. Foi seu primeiro artigo científico a ser
+                    publicado, os editores ficaram impressionados e publicaram o trabalho do jovem cientista desconhecido em março,
+                    quando tinha completado apenas 22 anos. Estimulado pelo seu sucesso inicial, poucos meses depois, em setembro, o
+                    jovem futuro pai iniciou seu doutoramento pela Universidade de Zurique com o professor de física experimental
+                    Alfred Kleiner como orientador, com a tese "Uma Nova Determinação das Dimensões Moleculares" ("Eine neue
+                    Bestimmung der Moleküldimensionen"), um artigo sobre as forças moleculares em gases na qual esperava que lhe
+                    conferisse o grau acadêmico de doutor. Ainda no verão de 1901, trabalhou como professor substituto numa escola
+                    técnica em Winterthur e como tutor numa escola particular em Schaffhausen. Einstein concluiu sua tese em 30 de
+                    abril de 1905. Neste mesmo ano, que tem sido chamado de o Ano Miraculoso, publicou quatro trabalhos
+                    revolucionários sobre o efeito fotoelétrico, o movimento browniano, a relatividade especial e a equivalência
+                    entre massa e energia, que o levariam ao conhecimento do mundo acadêmico. Em 1906, enquanto era promovido no
+                    escritório de patentes, recebeu formalmente o título de doutor e conheceu Max Planck, que começou a discutir
+                    algumas implicações da teoria da relatividade especial. No final desse ano terminou um artigo fundamental sobre
+                    calor específico, além de escrever resenhas de livros para o Annalen der Physik. No final de 1907, fez seus
+                    primeiros passos importantes em direção à teoria da relatividade geral tentando reconciliar a gravidade
+                    newtoniana com a relatividade especial, além de tentar usar o princípio da equivalência para a construção de uma
+                    nova teoria da gravidade.<br><br>
+
+                    Em fevereiro de 1908 já era reconhecido como um importante cientista e foi nomeado Privatdozent (professor) na
+                    Universidade de Berna. No ano seguinte, deixou o escritório de patentes e o cargo de professor e começou a dar
+                    aulas de eletrodinâmica na Universidade de Zurique, Alfred Kleiner recomendou-lhe à faculdade um recém-criado
+                    cargo de professor em física teórica. Foi nomeado professor adjunto em 1909. Tornou-se professor catedrático na
+                    Universidade Carolina em Praga, em 1911, aceitando a cidadania austríaca no Império Austro-Húngaro para fazer
+                    isso. Em 1912, entretanto, retornou à sua alma mater, em Zurique. De 1912 até 1914 foi professor de física
+                    teórica no Instituto Federal de Tecnologia de Zurique (ETH), onde lecionou mecânica analítica e termodinâmica.
+                    Também estudou mecânica do contínuo, a teoria molecular do calor, e o problema da gravitação, no qual trabalhou
+                    com o matemático Marcel Grossmann. Em 1914, retornou à Alemanha depois de ser nomeado diretor do Instituto
+                    Kaiser Guilherme de Física (1914- 1932) e professor da Universidade Humboldt de Berlim, com uma cláusula
+                    especial em seu contrato que o liberou da maioria das obrigações dos docentes. Ele se tornou um membro da
+                    Academia Prussiana de Ciências. Em 1916, Einstein foi nomeado presidente da Sociedade Alemã de Física, cargo que
+                    ocuparia até 1918.<br><br>
+
+                    Em novembro de 1911 foi convidado a participar da primeira Conferência de Solvay em Bruxelas, que reunia alguns
+                    dos maiores cientistas de todos os tempos, junto de Max Planck e Marie Curie. No mesmo ano, calculou que, com
+                    base em sua nova teoria da relatividade geral, a luz de uma estrela seria curvada pela gravidade do Sol. Essa
+                    previsão foi dada como confirmada em observações feitas por uma expedição britânica liderada por Sir Arthur
+                    Stanley Eddington na cidade de Sobral no estado do Ceará, durante o eclipse solar de 29 de maio de 1919.
+                    Notícias da mídia internacional fizeram Einstein instantaneamente famoso. Em 7 de novembro, The Times, o maior
+                    jornal britânico, publicou uma manchete que dizia: "Revolução na Ciência – Nova Teoria do Universo – Ideias de
+                    Newton Derrubadas". Usando sua imagem na capa, a revista semanal alemã Berliner Illustrirte Zeitung publicou uma
+                    manchete intitulada "Nova figura na história do mundo". Muito mais tarde, foram levantadas questões se os
+                    cálculos foram precisos o suficiente para apoiar a teoria. Em 1980, os historiadores John Earman e Clark Glymour
+                    publicaram uma análise sugerindo que Eddington tinha suprimido resultados desfavoráveis. A seleção dos dados de
+                    Eddington parece válida e sua equipe realmente fez medições astronômicas verificando a teoria. Posteriormente,
+                    em 1979 o Observatório Real de Greenwich fez uma reanalise moderna dos dados, apoiando a medição original de
+                    1919. Em 10 de novembro de 1922, Einstein foi agraciado com o Prêmio Nobel de Física de 1921 "por suas
+                    contribuições à física teórica e, especialmente, por sua descoberta da lei do efeito fotoelétrico". A
+                    relatividade não era bem compreendida. Mais tarde também recebeu a Medalha Copley da Royal Society em 1925 e a
+                    Medalha de Ouro da Royal Astronomical Society em 1926.<br><br><br></p>
+            </section>
+            <section>
+                <h2 id="contribuições-científicas">Contribuições científicas<br><br></h2>
+                
+                <p>Ao longo de sua vida, Einstein publicou centenas de livros e artigos. Além do trabalho individual, também
+                    colaborou com outros cientistas em outros projetos, incluindo a estatística de Bose-Einstein, o refrigerador de
+                    Einstein e outros. Publicou mais de 300 trabalhos científicos, juntamente com mais de 150 obras não científicas.</p>
+                
+                <h3>Artigos do Ano Miraculoso</h3>
+                
+                <p>Os textos do Ano Miraculoso são trabalhos acadêmicos que estabeleceram Einstein como um dos físicos mais
+                    importantes do mundo. Não só publicou artigos importantes nesse ano, mas também encontrou tempo para escrever
+                    outros 23 de revisão para uma série de revistas. Realizou tudo isso em seu tempo livre depois que chegava em
+                    casa do trabalho. No início de 1905 tinha 25 anos, era um homem de família, com dois anos de casamento, e
+                    encontrou tempo para pensar sobre física. Independentemente de como conseguiu concentrar-se com sua vida
+                    agitada, os resultados alcançados nesse ano foram notáveis. Estão entre os trabalhos mais profundos já
+                    publicados na física. Um deles iria finalmente lhe render o seu grau de doutor e ajudar a estabelecer que os
+                    átomos realmente existem. Outros dois lançaram uma nova área da física — a relatividade especial — pela qual ele
+                    se tornou mundialmente famoso. Um quarto artigo ligado a curiosa observação sobre o movimento errático do pólen
+                    — o movimento browniano — com o tamanho de átomos. Todos eles foram publicados na prestigiada revista alemã
+                    Annalen der Physik. Os quatro artigos são:
+                    <ul>
+                        <li><em>Sobre um ponto de vista heurístico relativo à produção e transformação da luz</em>. Artigo
+                            científico que possui como foco o efeito fotoelétrico, foi recebido pelo periódico em 18 de março e
+                            publicado em 9 de junho. Resolveu um quebra-cabeça sem solução, sugerindo que a energia é trocada apenas
+                            em quantidades discretas (quanta). Esta ideia foi fundamental para o desenvolvimento inicial da teoria
+                            quântica.</li>
+                        <li><em>Sobre o movimento de pequenas partículas em suspensão dentro de líquidos em repouso, tal como                            exigido pela teoria cinético-molecular do calor</em>. Artigo focado no movimento browniano, foi
+                            recebido em 11 de maio e publicado em 18 de julho. Explicou evidência empírica para a teoria atômica,
+                            apoiando a aplicação da física estatística.</li>
+                        <li><em>Sobre a Eletrodinâmica dos Corpos em Movimento</em>. Com foco na relatividade restrita, foi
+                            apresentado em 30 de junho e publicado em 26 de setembro. Reconciliou as equações de eletricidade e de
+                            magnetismo de Maxwell com as leis da mecânica, introduzindo alterações importantes na mecânica perto da
+                            velocidade da luz, que resultam da análise com base na evidência empírica de que a velocidade da luz é
+                            independente do movimento do observador. Desacreditou o conceito de um "éter luminoso".</li>
+                        <li><em>A inércia de um corpo depende do seu conteúdo energético?</em>. Artigo que investiga a equivalência
+                            massa-energia, foi apresentado ao periódico em 27 de setembro e publicado em 21 de novembro. É
+                            apresentada a equivalência de matéria e energia, E=mc² (e, por consequência, a capacidade da gravidade
+                            em "curvar" a luz), a existência da "energia de repouso" e a base da energia nuclear (a conversão de
+                            matéria em energia por seres humanos e no cosmos).</li>
+                    </ul>
+                    Outros cientistas, especialmente Henri Poincaré e Hendrik Lorentz, tinham teorizado partes da relatividade
+                    especial. No entanto, Einstein foi o primeiro a reunir toda a teoria em conjunto e perceber o que era uma lei
+                    universal da natureza, não uma invenção de movimento no éter, como Poincaré e Lorentz tinham pensado.
+                    Originalmente, a comunidade científica ignorou os artigos do Ano Miraculoso. Isso começou a mudar depois que
+                    recebeu a atenção de Max Planck, o fundador da teoria quântica, um dos físicos mais influentes de sua geração e
+                    o único físico que notou os trabalhos. Ambos viriam a se conhecer em uma palestra internacional na Conferencia
+                    de Solvay, após Planck gradualmente confirmar sua teoria.<br><br></p>
+            </section>
+        </article>
+        <aside>
+            <img id="foto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/800px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
                 alt="Foto de Einstein tirada em 1921">
-        
 
-        <h4>Índice</h4>
-        <ol>
-            <a href="#início-de-vida"><li>Início de vida</li></a>
-            <a href="#carreira-acadêmica"><li>Carreira acadêmica</li></a>
-            <a href="#contribuições-científicas"><li>Contribuições científicas<br><br><br></li></a>
-        </ol>
-        <h2 id="início-de-vida">Início de vida<br><br></h2>
-        <p>Albert Einstein nasceu em Ulm, no Reino de Württemberg, Império Alemão (atual Baden-Württemberg, Alemanha), em 14
-            de março de 1879. Seus pais eram Hermann Einstein, um vendedor e engenheiro, e Pauline Einstein (nascida Koch).
-            Os Einstein eram judeus asquenazes não praticantes. Em 1880 a família mudou-se para Munique, onde seu pai e tio
-            fundaram a Elektrotechnische Fabrik J. Einstein & Cie, empresa que fabricava equipamentos elétricos acionados
-            por corrente contínua. Um ano mais tarde seus pais deram à luz a uma menina, Maria "Maja" Einstein, sua irmã
-            mais nova. Com cinco anos de idade o jovem Albert estudou em uma escola primária católica durante três anos. Aos
-            oito foi transferido para o Ginásio Luitpold, hoje conhecido como Ginásio Albert Einstein, onde recebeu educação
-            escolar primária e secundária, até deixar a Alemanha sete anos depois. Seu tio Jacob, um engenheiro, e Max
-            Talmey, um jovem estudante pobre de medicina que jantava na casa da família uma vez por semana entre 1889 e
-            1894, foram grandes influências durante seus anos de formação. Eles incentivaram sua curiosidade inerente e
-            insaciável sobre tudo. Talmey trouxe livros populares de ciência, incluindo Crítica da Razão Pura de Immanuel
-            Kant, que Einstein começou a ler.<br><br>
-
-            Em 1894, a empresa de seu pai faliu: a corrente contínua perdeu a Guerra das Correntes para a corrente
-            alternada. Em busca de negócios, a família de Einstein mudou-se para a Itália, primeiro para Milão e, alguns
-            meses mais tarde, para Pavia. Quando a família se mudou para a cidade italiana, Einstein ficou em Munique para
-            terminar seus estudos no Ginásio Luitpold. Seu pai queria que seguisse a engenharia elétrica, mas o jovem entrou
-            em choque com as autoridades e ressentiu-se com o regime da escola e o método de ensino. Escreveu mais tarde que
-            o espírito do conhecimento e o pensamento criativo foram perdidos na esteira da aprendizagem mecânica. No final
-            de dezembro de 1894, viajou para a Itália para se juntar à sua família em Pavia, convencendo a escola a deixá-lo
-            ir usando um atestado médico. Foi durante seu tempo na Itália que escreveu um pequeno ensaio com o título "Sobre
-            a Investigação do Estado do Éter num Campo Magnético".<br><br>
-
-            No final do verão de 1895, com dezesseis anos, dois antes da idade padrão, realizou os exames de admissão para a
-            Escola Politécnica Federal Suíça (hoje a ETH-Zurique). Ele não conseguiu alcançar o padrão exigido em várias
-            disciplinas, mas obteve notas excepcionais em física e matemática. Seguindo o conselho do diretor da
-            Politécnica, frequentou a Escola Cantonal em Aarau, Suíça, entre 1895 e 1896 para completar o ensino secundário.
-            Enquanto se hospedava com a família do professor Jost Winteler, apaixonou-se por sua filha, Marie Winteler (mais
-            tarde sua irmã Maja casou-se com o filho dos Wintelers, Paul). Em 28 de janeiro de 1896, com a aprovação de seu
-            pai, renunciou à sua cidadania no Reino de Württemberg, para evitar o serviço militar. Em 29 de outubro foi
-            aprovado no exame Matura com boas notas. Embora tivesse apenas 17 anos, um a menos que os demais alunos,
-            matriculou-se no curso de quatro anos para obter o diploma de professor de física da Escola Politécnica. Durante
-            os anos de graduação, viveu com uma mesada de 1 franco suíço por mês, da qual guardou uma pequena quantia para
-            pagar por seus papéis de naturalização. Marie Winteler mudou-se para Olsberg, Suíça, onde obteve um cargo como
-            professora.<br><br>
-
-            A futura esposa de Einstein, Mileva Marić, também se matriculou na Escola Politécnica no mesmo ano, e era a
-            única mulher entre os seis estudantes de matemática e física nas aulas do curso. Com o passar dos anos, sua
-            amizade com Marić se desenvolveu em romance, e juntos liam livros extra-curriculares de física onde Einstein
-            estava mostrando um interesse crescente. Em 1900, Einstein foi agraciado com o diploma de ensino da Politécnica
-            de Zurique, mas Marić foi reprovada no exame com uma nota baixa em um componente da matemática, a teoria das
-            funções. Houve alegações de que Marić colaborou com Einstein em seus célebres trabalhos de 1905, mas os
-            historiadores da física que estudaram a questão não encontraram nenhuma evidência de que ela tenha feito
-            quaisquer contribuições substanciais.<br><br><br></p>
-        <h2 id="carreira-acadêmica">Carreira acadêmica<br><br></h2>
-        <p>Em fevereiro de 1901, Einstein adquiriu a nacionalidade suíça. Poucos meses depois, no início do mesmo ano, seu
-            artigo "Conclusões Retiradas dos Fenômenos da Capilaridade" ("Folgerungen aus den Capillaritätserscheinungen")
-            foi publicado no prestigiado periódico acadêmico Annalen der Physik. Foi seu primeiro artigo científico a ser
-            publicado, os editores ficaram impressionados e publicaram o trabalho do jovem cientista desconhecido em março,
-            quando tinha completado apenas 22 anos. Estimulado pelo seu sucesso inicial, poucos meses depois, em setembro, o
-            jovem futuro pai iniciou seu doutoramento pela Universidade de Zurique com o professor de física experimental
-            Alfred Kleiner como orientador, com a tese "Uma Nova Determinação das Dimensões Moleculares" ("Eine neue
-            Bestimmung der Moleküldimensionen"), um artigo sobre as forças moleculares em gases na qual esperava que lhe
-            conferisse o grau acadêmico de doutor. Ainda no verão de 1901, trabalhou como professor substituto numa escola
-            técnica em Winterthur e como tutor numa escola particular em Schaffhausen. Einstein concluiu sua tese em 30 de
-            abril de 1905. Neste mesmo ano, que tem sido chamado de o Ano Miraculoso, publicou quatro trabalhos
-            revolucionários sobre o efeito fotoelétrico, o movimento browniano, a relatividade especial e a equivalência
-            entre massa e energia, que o levariam ao conhecimento do mundo acadêmico. Em 1906, enquanto era promovido no
-            escritório de patentes, recebeu formalmente o título de doutor e conheceu Max Planck, que começou a discutir
-            algumas implicações da teoria da relatividade especial. No final desse ano terminou um artigo fundamental sobre
-            calor específico, além de escrever resenhas de livros para o Annalen der Physik. No final de 1907, fez seus
-            primeiros passos importantes em direção à teoria da relatividade geral tentando reconciliar a gravidade
-            newtoniana com a relatividade especial, além de tentar usar o princípio da equivalência para a construção de uma
-            nova teoria da gravidade.<br><br>
-
-            Em fevereiro de 1908 já era reconhecido como um importante cientista e foi nomeado Privatdozent (professor) na
-            Universidade de Berna. No ano seguinte, deixou o escritório de patentes e o cargo de professor e começou a dar
-            aulas de eletrodinâmica na Universidade de Zurique, Alfred Kleiner recomendou-lhe à faculdade um recém-criado
-            cargo de professor em física teórica. Foi nomeado professor adjunto em 1909. Tornou-se professor catedrático na
-            Universidade Carolina em Praga, em 1911, aceitando a cidadania austríaca no Império Austro-Húngaro para fazer
-            isso. Em 1912, entretanto, retornou à sua alma mater, em Zurique. De 1912 até 1914 foi professor de física
-            teórica no Instituto Federal de Tecnologia de Zurique (ETH), onde lecionou mecânica analítica e termodinâmica.
-            Também estudou mecânica do contínuo, a teoria molecular do calor, e o problema da gravitação, no qual trabalhou
-            com o matemático Marcel Grossmann. Em 1914, retornou à Alemanha depois de ser nomeado diretor do Instituto
-            Kaiser Guilherme de Física (1914- 1932) e professor da Universidade Humboldt de Berlim, com uma cláusula
-            especial em seu contrato que o liberou da maioria das obrigações dos docentes. Ele se tornou um membro da
-            Academia Prussiana de Ciências. Em 1916, Einstein foi nomeado presidente da Sociedade Alemã de Física, cargo que
-            ocuparia até 1918.<br><br>
-
-            Em novembro de 1911 foi convidado a participar da primeira Conferência de Solvay em Bruxelas, que reunia alguns
-            dos maiores cientistas de todos os tempos, junto de Max Planck e Marie Curie. No mesmo ano, calculou que, com
-            base em sua nova teoria da relatividade geral, a luz de uma estrela seria curvada pela gravidade do Sol. Essa
-            previsão foi dada como confirmada em observações feitas por uma expedição britânica liderada por Sir Arthur
-            Stanley Eddington na cidade de Sobral no estado do Ceará, durante o eclipse solar de 29 de maio de 1919.
-            Notícias da mídia internacional fizeram Einstein instantaneamente famoso. Em 7 de novembro, The Times, o maior
-            jornal britânico, publicou uma manchete que dizia: "Revolução na Ciência – Nova Teoria do Universo – Ideias de
-            Newton Derrubadas". Usando sua imagem na capa, a revista semanal alemã Berliner Illustrirte Zeitung publicou uma
-            manchete intitulada "Nova figura na história do mundo". Muito mais tarde, foram levantadas questões se os
-            cálculos foram precisos o suficiente para apoiar a teoria. Em 1980, os historiadores John Earman e Clark Glymour
-            publicaram uma análise sugerindo que Eddington tinha suprimido resultados desfavoráveis. A seleção dos dados de
-            Eddington parece válida e sua equipe realmente fez medições astronômicas verificando a teoria. Posteriormente,
-            em 1979 o Observatório Real de Greenwich fez uma reanalise moderna dos dados, apoiando a medição original de
-            1919. Em 10 de novembro de 1922, Einstein foi agraciado com o Prêmio Nobel de Física de 1921 "por suas
-            contribuições à física teórica e, especialmente, por sua descoberta da lei do efeito fotoelétrico". A
-            relatividade não era bem compreendida. Mais tarde também recebeu a Medalha Copley da Royal Society em 1925 e a
-            Medalha de Ouro da Royal Astronomical Society em 1926.<br><br><br></p>
-        <h2 id="contribuições-científicas">Contribuições científicas<br><br></h2>
-        <p>Ao longo de sua vida, Einstein publicou centenas de livros e artigos. Além do trabalho individual, também
-            colaborou com outros cientistas em outros projetos, incluindo a estatística de Bose-Einstein, o refrigerador de
-            Einstein e outros. Publicou mais de 300 trabalhos científicos, juntamente com mais de 150 obras não científicas.
-        </p>
-        <h3>Artigos do Ano Miraculoso</h3>
-        <p>Os textos do Ano Miraculoso são trabalhos acadêmicos que estabeleceram Einstein como um dos físicos mais
-            importantes do mundo. Não só publicou artigos importantes nesse ano, mas também encontrou tempo para escrever
-            outros 23 de revisão para uma série de revistas. Realizou tudo isso em seu tempo livre depois que chegava em
-            casa do trabalho. No início de 1905 tinha 25 anos, era um homem de família, com dois anos de casamento, e
-            encontrou tempo para pensar sobre física. Independentemente de como conseguiu concentrar-se com sua vida
-            agitada, os resultados alcançados nesse ano foram notáveis. Estão entre os trabalhos mais profundos já
-            publicados na física. Um deles iria finalmente lhe render o seu grau de doutor e ajudar a estabelecer que os
-            átomos realmente existem. Outros dois lançaram uma nova área da física — a relatividade especial — pela qual ele
-            se tornou mundialmente famoso. Um quarto artigo ligado a curiosa observação sobre o movimento errático do pólen
-            — o movimento browniano — com o tamanho de átomos. Todos eles foram publicados na prestigiada revista alemã
-            Annalen der Physik. Os quatro artigos são:
-            <ul>
-                <li><em>Sobre um ponto de vista heurístico relativo à produção e transformação da luz</em>. Artigo
-                    científico que possui como foco o efeito fotoelétrico, foi recebido pelo periódico em 18 de março e
-                    publicado em 9 de junho. Resolveu um quebra-cabeça sem solução, sugerindo que a energia é trocada apenas
-                    em quantidades discretas (quanta). Esta ideia foi fundamental para o desenvolvimento inicial da teoria
-                    quântica.</li>
-                <li><em>Sobre o movimento de pequenas partículas em suspensão dentro de líquidos em repouso, tal como
-                        exigido pela teoria cinético-molecular do calor</em>. Artigo focado no movimento browniano, foi
-                    recebido em 11 de maio e publicado em 18 de julho. Explicou evidência empírica para a teoria atômica,
-                    apoiando a aplicação da física estatística.</li>
-                <li><em>Sobre a Eletrodinâmica dos Corpos em Movimento</em>. Com foco na relatividade restrita, foi
-                    apresentado em 30 de junho e publicado em 26 de setembro. Reconciliou as equações de eletricidade e de
-                    magnetismo de Maxwell com as leis da mecânica, introduzindo alterações importantes na mecânica perto da
-                    velocidade da luz, que resultam da análise com base na evidência empírica de que a velocidade da luz é
-                    independente do movimento do observador. Desacreditou o conceito de um "éter luminoso".</li>
-                <li><em>A inércia de um corpo depende do seu conteúdo energético?</em>. Artigo que investiga a equivalência
-                    massa-energia, foi apresentado ao periódico em 27 de setembro e publicado em 21 de novembro. É
-                    apresentada a equivalência de matéria e energia, E=mc² (e, por consequência, a capacidade da gravidade
-                    em "curvar" a luz), a existência da "energia de repouso" e a base da energia nuclear (a conversão de
-                    matéria em energia por seres humanos e no cosmos).</li>
-            </ul>
-            Outros cientistas, especialmente Henri Poincaré e Hendrik Lorentz, tinham teorizado partes da relatividade
-            especial. No entanto, Einstein foi o primeiro a reunir toda a teoria em conjunto e perceber o que era uma lei
-            universal da natureza, não uma invenção de movimento no éter, como Poincaré e Lorentz tinham pensado.
-            Originalmente, a comunidade científica ignorou os artigos do Ano Miraculoso. Isso começou a mudar depois que
-            recebeu a atenção de Max Planck, o fundador da teoria quântica, um dos físicos mais influentes de sua geração e
-            o único físico que notou os trabalhos. Ambos viriam a se conhecer em uma palestra internacional na Conferencia
-            de Solvay, após Planck gradualmente confirmar sua teoria.<br><br></p>
-    </div>
-
-    <footer>
-        <p class="rodapé">Clique <a target="_blanck" href="https://pt.wikipedia.org/wiki/Albert_Einstein">aqui</a> para saber mais!</p>
-    </footer>
-
-</body>
-
+            <h3>Curiosidades</h3>
+            
+            <table>
+                <tr>
+                    <td><strong>Nascimento</strong></td>
+                    <td>14 de março de 1879 - Ulm, Reino de Württemberg - Império Alemão</td>
+                </tr>
+                <tr>
+                    <td><strong>Morte</strong></td>
+                    <td>18 de abril de 1955 - Princeton, Nova Jersey - Estados Unidos</td>
+                </tr>
+                <tr>
+                    <td><strong>Nacionalidade</strong></td>
+                    <td>alemão, suíço, estadunidense</td>
+                </tr>
+                <tr>
+                    <td><strong>Progenitores</strong></td>
+                    <td>Pauline Koch, Hermann Einstein</td>
+                </tr>
+                <tr>
+                    <td><strong>Cônjuge</strong></td>
+                    <td>Mileva Maric (1903-1919), Elsa Löwenthal (1919-1936)</td>
+                </tr>
+                <tr>
+                    <td><strong>Filho(s)</strong></td>
+                    <td>Lieserl Einstein, Hans Albert Einstein, Eduard Einstein</td>
+                </tr>
+            </table>
+        </aside>
+        <footer>
+            <p class="rodapé">Clique <a target="_blanck" href="https://pt.wikipedia.org/wiki/Albert_Einstein">aqui</a> para saber mais!</p>
+        </footer>
+    </body>
 </html>
