@@ -1,0 +1,66 @@
+body {
+    margin: 10px;
+}
+div {
+    margin: 8px;
+}
+input {
+    width: 420px;
+}
+#imagem-do-meme {
+    position: absolute;
+    top: 100px;
+    width: 800px;
+    height: 550px;
+    border: 4px solid black;
+}
+.texto-do-meme {
+    position: absolute;
+    margin-left: 15px;
+    width: 780px;
+    max-height: 118px;
+    text-align: center;
+    word-break: break-all;
+    overflow: hidden;    
+    font-size: 50px;
+    color: black;
+    font-weight: bold;        
+}
+#texto-do-meme-down {
+    top: 520px;
+}
+#texto-do-meme-up {
+    top: 100px;
+}
+#aumentar-letra {
+    position: absolute;
+    top: 100px;
+    left: 925px;
+}
+#diminuir-letra {
+    position: absolute;
+    top: 100px;
+    left: 1125px;
+}
+#trocar-borda {
+    position: absolute;
+    top: 170px;
+    left: 1025px;
+}
+.miniatura {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#gloria-maria {   
+    top: 250px;
+    left: 900px;
+}
+#joelma {
+    top: 250px;
+    left: 1100px;
+}
+#nazare {
+    top: 450px;
+    left: 1000px;
+}
