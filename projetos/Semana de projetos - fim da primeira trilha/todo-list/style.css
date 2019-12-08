@@ -1,0 +1,26 @@
+body {
+    background-color: #ffff80;
+}
+h1 {
+    color: blue;
+}
+p {
+    font-style: italic;
+}
+ol {
+	list-style-type: lower-roman;
+}
+li {
+    background-color: #cccc00;
+    border: 1px dashed gray;
+}
+button {
+    background-color: #000080;
+    color: white;
+}
+.itemSelecionado {
+    background: #87cefa;
+}
+.itemCompleto {
+    text-decoration: line-through;
+}
