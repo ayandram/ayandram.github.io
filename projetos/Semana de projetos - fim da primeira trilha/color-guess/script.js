@@ -144,8 +144,6 @@ function geraCorAleatoria() {
 function escolheBolaDaResposta(numero) {
     let posicaoDaBola = Math.round(Math.random() * numero);
 
-    bolas[posicaoDaBola].style.border = "5px solid black"; //LEMBRAR DE APAGAR ESSA LINHA
-
     bolas[posicaoDaBola].addEventListener('click', function() {
         if (! encontrouResposta) {
             mensagemDeResultado.innerText = "Correct!";
