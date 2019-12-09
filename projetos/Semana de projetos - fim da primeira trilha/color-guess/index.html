@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Adivinhe a Cor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Adivinhe a cor!</h1>
+    <p>Abra uma nova guia para zerar a pontuação</p>
+    <h2 id="rgb"></h2>
+    <div id="conjunto-de-bolas">
+        <div class="bola"></div><div class="bola"></div><div class="bola"></div><div class="bola"></div><div class="bola"></div><div class="bola"></div>
+    </div>
+    <h2 id="mensagem-de-resultado"></h2>
+    <div>
+        <button id="reiniciar">Reiniciar o jogo</button>
+    </div>
+    <h2>Placar</h2>
+    <h2 id="placar"></h2>
+    <div>
+        Digite um número entre 3 e 9 para alterar a dificuldade do jogo (número de bolas): <input type="text" maxlength="1"><button id="alterar-numero">Alterar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
